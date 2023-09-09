@@ -1,0 +1,92 @@
+html,
+body,
+h1,
+h2,
+h3 {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	background-color: cadetblue;
+}
+
+article {
+	background: #fff;
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 100%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	transition: all 0.5s ease;
+}
+
+.name_img {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+}
+
+#track {
+	font-size: 0.8rem;
+	font-weight: 400;
+}
+
+.time {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.5rem;
+}
+
+#day_of_week {
+	font-size: 0.8rem;
+	font-weight: 400;
+	background-color: cadetblue;
+	color: #fff;
+	padding: 0.3rem 1rem;
+	border-radius: 5px;
+}
+
+#utc_time {
+	font-size: 0.8rem;
+	font-weight: 400;
+	background-color: rgb(55, 90, 23);
+	color: #fff;
+	padding: 0.3rem 1rem;
+	border-radius: 5px;
+}
+
+.link {
+	text-decoration: none;
+	color: #fff;
+	background-color: rgb(3, 33, 34);
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	font-size: 0.8rem;
+	font-weight: 400;
+	transition: all 0.5s ease;
+	display: flex;
+	justify-content: center;
+}
+
+a {
+	color: #fff;
+}
